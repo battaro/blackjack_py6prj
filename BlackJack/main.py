@@ -101,11 +101,9 @@ def the_game():
     result = compare(player_score,computer_score)
     print(result)
 
-answer = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
-while answer != "n":
+
+while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
   clear()
   the_game()
 else: #i didn't knew that i can use else with while 
     print("Bye Bye thx for playing <3")
-
-    
